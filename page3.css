@@ -1,0 +1,90 @@
+/* select {
+    width:500px;
+    height:100px;
+} */
+
+.videoInnerBox {
+    margin:0 auto;
+    width:950px;
+    min-height:600px;
+}
+
+.videoInnerBoxContent {
+    margin-top:0px;
+    width:100%;
+    min-height:500px;
+    /* border:2px solid black; */
+}
+
+/* .innerUp {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: minmax(450px,auto);
+} */
+
+.innerUpLeft {
+    position:relative;
+    float: left;
+    padding:50px;
+    padding-bottom:0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.innerUpLeft span{
+    position:absolute;
+    font-size: 0.8rem;
+    top:100%;
+    left:0px;
+}
+
+.innerUpRight {
+    padding-top:40px;
+}
+
+.innerUpRight h3 {
+    margin:0px;
+}
+
+.innerUpRight a:link, .innerUpRight a:visited {
+    color:black;
+}
+
+.innerUpRight a:hover {
+    text-decoration: underline;
+}
+
+.contentText {
+    line-height: 2rem;
+}
+
+.showLyric {
+    color:white;
+    text-align: center;
+    background-color: rgb(195, 195, 195);
+    border-radius: 5px;
+    height:35px;
+    line-height: 35px;
+}
+
+.showLyric:hover {
+    cursor: pointer;
+}
+
+.lyric {
+    width:100%;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    min-height:0px;
+    margin:0px auto;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.songName {
+    margin-top:0px;
+}
+
+/* .lyric {
+    display:none;
+} */
